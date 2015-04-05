@@ -69,8 +69,7 @@ $(document).ready(function(event) {
 
 </nav>
   <div id="main">
-    <div id="content"> 
-<div>
+    <div id="content"> <div>
 	<article class="hentry" role="article">
 	<header>
 			  	<h1 class="entry-title">手机也可以当做鼠标用！</h1>
@@ -107,9 +106,6 @@ $(document).ready(function(event) {
 <p>￼￼￼不过把手机当成鼠标来使用，还是不太习惯 ：(</p>
 
 			</div>
-
-		
-	  
 		<footer>
 		 <p class="meta">
 
@@ -117,21 +113,32 @@ $(document).ready(function(event) {
 			<span class="categories">
 			
 			    <a class='category' href='issuecategery.html'>软件推荐</a>&nbsp;
-			 
+			
 			</span>
 		    </p>
 		    <p class="meta">
-		      
+
 		 </p>
-	    
+
 		<div class="sharing">
-		      <!--jiathis与友言-->
-			
+			<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = '42wolf';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 		</div>
 
 	    <p class="meta">
 	    
-	        <a class="basic-alignment left" href="14281616564135.html" 
+	        <a class="basic-alignment left" href="14281616564135.html"
 	        title="Previous Post: 草泥马温泉旅馆">&laquo; 草泥马温泉旅馆</a>
 	    
 	    
@@ -178,10 +185,12 @@ $(document).ready(function(event) {
 </aside> </div></div>
   <footer role="contentinfo"><p>
   Copyright &copy; 2014 -  -
-  <span class="credit">Powered by <a target="_blank" href="http://coderforart.com/">MWeb</a> &nbsp;&nbsp; Theme by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; Theme by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
 </footer>
+<script src="asset/flow-sequence-chart/raphael-min.js"></script><script src="asset/flow-sequence-chart/underscore-min.js"></script><script src="asset/flow-sequence-chart/flowchart.min.js"></script><script src="asset/flow-sequence-chart/sequence-diagram-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/x-mathjax-config">if (typeof MathJaxListener !== 'undefined') { MathJax.Hub.Register.StartupHook('End', function () { MathJaxListener.invokeCallbackForKey_('End'); }); } </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 </body>
 </html>
