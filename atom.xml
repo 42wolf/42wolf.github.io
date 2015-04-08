@@ -4,7 +4,7 @@
   <title><![CDATA[徐梦阳的博客]]></title>
   <link href="http://42wolf.github.io/atom.xml" rel="self"/>
   <link href="http://42wolf.github.io/"/>
-  <updated>2015-04-06T20:54:41+08:00</updated>
+  <updated>2015-04-08T23:13:21+08:00</updated>
   <id>http://42wolf.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac上的Markdown编辑器——MacDown]]></title>
+    <link href="http://42wolf.github.io/macdown.html"/>
+    <updated>2015-04-08T22:43:39+08:00</updated>
+    <id>http://42wolf.github.io/macdown.html</id>
+    <content type="html"><![CDATA[
+<p>著名的markdown编辑软件mou在V2ex上出售未果<a href="#comment1"><sup>1</sup></a>以后,开始众筹资金自行组织团队来继续开发这款Mac下的App，而Mou将不再免费使用，而且，当他们在完成新版本的开发之前，Mou到现在为止一直都没有再更新，而且Mou在Yosemite上使用时，可能是遇到了Bug,使用的时候相当的卡顿，这就迫使我去寻找新的Markdown编辑器。<br/>
+在一个偶然的机会里，我在V2ex上听人推荐Markdown,于是我找到了他的官网<a href="#comment2"><sup>2</sup></a>下载了一个，在官网的描述里，作者承认这就是他参考Mou做出来的一个产品，就是为了替代Mou，并且将这个软件一直继续开源下去，并按照他自己的想法生存下去，于是我使用至今，感觉相当之好用，完全可以替代Mou，我现在已经抛弃了Mou了</p>
+
+<p>Macdown的好处在于：</p>
+
+<ul>
+<li>1、在Yosemite上完全不卡顿，打开文件秒开</li>
+<li>2、完全开源，再也不用担心收费了（其实Mou的9.99$的定价也是可以接受的，但不还是没上线嘛）</li>
+</ul>
+
+<h2 id="toc_0">图片</h2>
+
+<p><img src="media/14285042195454/14285055765009.jpg" alt=""/>￼￼￼</p>
+
+<h2 id="toc_1">参考</h2>
+
+<p><span id=comment1>1、<a href="http://www.v2ex.com/t/113734?p=2">http://www.v2ex.com/t/113734?p=2</a> </span><br/>
+<span id=comment2>2、<a href="http://macdown.uranusjr.com/">MacDown官网</a></span></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[知识管理方法论—总览]]></title>
@@ -66,7 +94,7 @@
 <h3 id="toc_2">信息获取的过程</h3>
 
 <p>说到知识的管理的方法论，我们首先得了解一下知识形成的完整过程，一个完整的知识获取过程应该是：<strong>信息的输入——信息的存储——信息的处理——知识的输出</strong><br/>
-<img src="media/14259762040589/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86.jpg" alt="知识管理"/>￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
+<img src="media/14259762040589/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86.jpg" alt="知识管理"/>￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
 
 <ul>
 <li>信息的输入:你感受到的信息，包括看到的，听到的，感受到的信息，它包括且不限于：邻居的八卦，新闻，天气。</li>
@@ -104,7 +132,7 @@
 <span id=comment11>11、源自孕峰的文章<a href="http://yunfeng.baijia.baidu.com/article/50589">《傅盛豹变》</a></span><br/>
 <span id=comment12>12、关于不可操作的道理，我在我的博文<strong>为什么我们懂得许多道理，却依然过不好这一生</strong>里面有说过，这篇博文还没写，写完了加上去，预售产能，理解万岁</span><br/>
 <span id=comment13>13、范凯的文章<a href="http://mp.weixin.qq.com/s?__biz=MzA4NzA2NjcyMg==&amp;mid=204537915&amp;idx=1&amp;sn=0b0a59b1320813137ca961eb8e1f87a3&amp;scene=1&amp;key=b2574200810f04e82143077588cb3b972974c47bfb856107ee96288cec41aaf7d381514171cb2d686e78a536c9f3cca1&amp;ascene=0&amp;uin=NjMwNTE5MDYw&amp;devicetype=iMac+MacBookPro11%2C2+OSX+OSX+10.10.2+build(14C1514)&amp;version=11020012&amp;pass_ticket=txuSJG%2F5xaSHNORVNBYLcUSXpO6yp01XoI9r6IptalUjBJv65jngaCMZE7fyQ9%2Ft">下一个失宠的行业：公务员</a></span><br/>
-<span id=comment11>14、<a href="http://baike.baidu.com/link?url=-ez9x51Qxtkp2PfIpffLjFSaQaffBcrXrz-ixOh5KvSxGlhAykEpY2cLfYYc2q2ZqjeJAFJ02jNF_woG1E66Cq">巴普洛夫的狗</a></span></p>
+<span id=comment14>14、<a href="http://baike.baidu.com/link?url=-ez9x51Qxtkp2PfIpffLjFSaQaffBcrXrz-ixOh5KvSxGlhAykEpY2cLfYYc2q2ZqjeJAFJ02jNF_woG1E66Cq">巴普洛夫的狗</a></span></p>
 
 <h4 id="toc_5">修订</h4>
 
