@@ -4,7 +4,7 @@
   <title><![CDATA[徐梦阳的博客]]></title>
   <link href="http://42wolf.github.io/atom.xml" rel="self"/>
   <link href="http://42wolf.github.io/"/>
-  <updated>2015-04-08T23:13:21+08:00</updated>
+  <updated>2015-04-08T23:17:51+08:00</updated>
   <id>http://42wolf.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -26,14 +26,15 @@
 
 <ul>
 <li>1、在Yosemite上完全不卡顿，打开文件秒开</li>
-<li>2、完全开源，再也不用担心收费了（其实Mou的9.99$的定价也是可以接受的，但不还是没上线嘛）</li>
+<li>2、完全开源，再也不用担心收费了（其实Mou的9.99$的定价也是完全可以接受的，但它不还是没上线嘛：））</li>
 </ul>
 
-<h2 id="toc_0">图片</h2>
+<p>具体软件界面请看下图，几乎和Mou没有区别。（笔者也不太清楚，这是否有侵权嫌疑）<br/>
+<img src="media/14285042195454/14285055765009.jpg" alt=""/>￼￼￼</p>
 
-<p><img src="media/14285042195454/14285055765009.jpg" alt=""/>￼￼￼</p>
+<p>推荐大家在被Mou编辑Markdown文件折腾的半死之后使用，那种感觉~~~</p>
 
-<h2 id="toc_1">参考</h2>
+<h2 id="toc_0">参考</h2>
 
 <p><span id=comment1>1、<a href="http://www.v2ex.com/t/113734?p=2">http://www.v2ex.com/t/113734?p=2</a> </span><br/>
 <span id=comment2>2、<a href="http://macdown.uranusjr.com/">MacDown官网</a></span></p>
