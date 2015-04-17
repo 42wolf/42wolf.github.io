@@ -4,7 +4,7 @@
   <title><![CDATA[徐梦阳的博客]]></title>
   <link href="http://42wolf.github.io/atom.xml" rel="self"/>
   <link href="http://42wolf.github.io/"/>
-  <updated>2015-04-17T00:25:01+08:00</updated>
+  <updated>2015-04-18T01:14:31+08:00</updated>
   <id>http://42wolf.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[世界这么大，你看看看个毛线]]></title>
+    <link href="http://42wolf.github.io/14292904414145.html"/>
+    <updated>2015-04-18T01:07:21+08:00</updated>
+    <id>http://42wolf.github.io/14292904414145.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/14292890491312/14292892981515.jpg" alt=""/>￼￼￼</p>
+
+<p>最近被河南省实验中学顾老师的10字辞职信刷爆了朋友圈，所有人纷纷出动：朋友圈里一堆姐姐们哭着喊着纷纷表示嘤嘤嘤写出了自己的心声，互联网段子狗……哦不对，做营销的同学们摩拳擦掌纷纷表示哈哈哈又有新素材了。</p>
+
+<p>看着大家从头玩到尾赞来赞去不亦乐乎，我其实就只想问一个问题：老师一年加起来三个月假，你特么不能放暑假的时候出去看啊。你知道我们IT狗一年加多少班吗？出去看看的理由完全不成立啊！</p>
+
+<p>仔细想想，似乎每个人总是喜欢在自己想做的事情上给出一个非常冠冕堂皇的借口，以此来说服自己和周围的人，其实说到底只是想逃离环境给自己带来的痛苦吧，十个字辞职信，不过是自欺欺人罢了。</p>
+
+<p>一个人最可怕的状态莫过于欺骗自己，所以从人生经验的角度来看，不要做自己感动自己的事情这句话，还是很有指导意义的。</p>
+
+<p>你看，据新闻报导，目前为止，顾老师现在还没有动身。</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[知乎体的厕所读物——从0到1书评]]></title>
@@ -73,7 +94,7 @@ Paypal创始人、Facebook第一位外部投资者彼得•蒂尔在本书中详
     <updated>2015-04-15T23:36:37+08:00</updated>
     <id>http://42wolf.github.io/14291121970881.html</id>
     <content type="html"><![CDATA[
-<p><img src="media/14291121970881/14291123599213.jpg" alt=""/>￼￼￼</p>
+<p><img src="media/14291121970881/14291123599213.jpg" alt=""/>￼￼￼￼</p>
 
 <p>晚上在家刷知乎，看到周筠老师自己的专栏文章<a href="#comment1"><sup>1</sup></a>里引用到罗曼罗兰的这句话：</p>
 
@@ -118,7 +139,7 @@ Paypal创始人、Facebook第一位外部投资者彼得•蒂尔在本书中详
 <h2 id="toc_2">其它</h2>
 
 <p>欢迎扫描二维码订阅我的微信公众号<br/>
-<img src="media/14291983232727/14292004226242.jpg" alt=""/>￼￼￼</p>
+<img src="media/14291983232727/14292004226242.jpg" alt=""/>￼￼￼￼</p>
 
 ]]></content>
   </entry>
@@ -900,64 +921,6 @@ kindle阅读器<br/>
 <p>总之这本书学习的方法就是：1、十分钟了解下数据库的基本概念 2、找到练手的数据库 3、对照着上面的内容去敲。</p>
 
 <p>最后就是，要多用。</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[我在Mac下使用的软件]]></title>
-    <link href="http://42wolf.github.io/%E6%88%91%E5%9C%A8Mac%E4%B8%8B%E4%BD%BF%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6.html"/>
-    <updated>2015-04-11T00:17:30+08:00</updated>
-    <id>http://42wolf.github.io/%E6%88%91%E5%9C%A8Mac%E4%B8%8B%E4%BD%BF%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6.html</id>
-    <content type="html"><![CDATA[
-<p>MAC下使用的软件，全部是免费的。因为电脑主要是工作使用，所以也没有装太多的软件，省的折腾。放在这里做个记录，以后也不会忘掉。Mac自带的软件就不说啦。。。</p>
-
-<p>输入法</p>
-
-<p>百度输入法<br/>
-电影播放器</p>
-
-<p>VLC视频播放器<br/>
-PPS播放器<br/>
-编程</p>
-
-<p>HomeBrew 类似于Ubuntu的apt安装<br/>
-Xcode 官方的IDE<br/>
-dash 文档查询软件<br/>
-Git  版本控制软件<br/>
-效率</p>
-
-<p>evernote 做的最好的笔记<br/>
-为知笔记 国产笔记<br/>
-阅读</p>
-
-<p>Pocket 排版特别漂亮的延后阅读类的软件，没想到还有MAC版<br/>
-网盘</p>
-
-<p>云诺<br/>
-Dropbox<br/>
-办公</p>
-
-<p>iworks套装<br/>
-写作</p>
-
-<p>mou Markdown写作必备<br/>
-下载</p>
-
-<p>迅雷<br/>
-聊天</p>
-
-<p>QQ<br/>
-远程桌面</p>
-
-<p>Microsoft Remote Desktop<br/>
-浏览器</p>
-
-<p>Chrome<br/>
-音乐</p>
-
-<p>douban.fm 豆瓣的WebApp<br/>
-QQ音乐</p>
 
 ]]></content>
   </entry>

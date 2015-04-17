@@ -74,6 +74,50 @@ $(document).ready(function(event) {
 
 	<article>
 		 <header>
+		  	<h1 class="entry-title"><a href="14281602467088.html">手机也可以当做鼠标用！</a></h1>
+			<p class="meta"><time datetime="2015-04-04T23:10:46+08:00" 
+			pubdate data-updated="true">2015/4/4</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<p>这是一款可以让你的手机变成Mac电脑鼠标的软件！<br/>
+<img src="media/14279961817481/14279964519094.jpg" alt="remotemouse"/>￼￼￼￼￼￼￼￼￼￼￼￼</p>
+
+<p><strong>Mac版</strong></p>
+
+<p>它能将你的ios和安卓设备，打造成一款好用的电脑的无线遥控器，同时它有如下功能：<br/>
+- 完美模拟鼠标点击<br/>
+- 支持多指触控<br/>
+- 横屏功能键盘<br/>
+- 多媒体遥控<br/>
+- 图像助手<br/>
+- 程序启动和切换面板<br/>
+- 远程关机启动重启注销<br/>
+￼- 数字键盘<br/>
+- 用挥动的方式来移动鼠标</p>
+
+<p>实际使用情况来看，只要两个客户端（手机+Mac）在同一个局域网下，只要打开就可以自动连接上，延迟很小，可以接受（但还得看网络情况）。</p>
+
+<p>Mac客户端是不收费的，但是在IOS下，分为免费版和收费版本，但日常使用的话：免费版就完全足够了。</p>
+
+<p>以下是软件的几个截图：<br/>
+<img src="media/14279961817481/14279971403860.jpg" alt="打开App功能"/>￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
+
+<p><img src="media/14279961817481/14279971712552.jpg" alt="键盘输入的功能"/>￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
+
+<p><img src="media/14279961817481/14279972007671.jpg" alt="关机重启等功能"/>￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
+
+<p>￼￼￼不过把手机当成鼠标来使用，还是不太习惯 ：(</p>
+
+
+		</div>
+
+		
+
+	</article>
+ 
+	<article>
+		 <header>
 		  	<h1 class="entry-title"><a href="%E6%89%B9%E5%88%A4%E4%B8%8E%E8%87%AA%E6%88%91%E6%89%B9%E5%88%A4.html">批判与自我批判</a></h1>
 			<p class="meta"><time datetime="2015-02-07T00:45:34+08:00" 
 			pubdate data-updated="true">2015/2/7</time></p>
@@ -376,96 +420,6 @@ $(document).ready(function(event) {
 		
 
 	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="14286835920252.html">confluence数据库校对规则的问题</a></h1>
-			<p class="meta"><time datetime="2014-01-15T00:33:12+08:00" 
-			pubdate data-updated="true">2014/1/15</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>字符集和校对规则</p>
-
-<p>字符集是一套字符和对应编码的集合，而对应的校对规则是对字符之间进行比较的一个或多个规则的集合。</p>
-
-<p>举个简单的例子：</p>
-
-<p>A——0</p>
-
-<p>B——1</p>
-
-<p>C——2</p>
-
-<p>a——3</p>
-
-<p>b——4</p>
-
-<p>c——5</p>
-
-<p>类似于上面的这样的，左边的集合属于字符集，右边的集合属于编码集。</p>
-
-<p>而校对规则就是用于字符之间互相比较的一套规则：</p>
-
-<p>比如我设定一个大小写敏感的规则，那么它就会把‘A’字符和‘a’字符当做两种不同的字符。</p>
-
-<p>但如果我设定一个大小写不敏感的字符规则，那么它就会把‘A’字符和‘a’字符当做完全一样的字符来进行校对处理。</p>
-
-<p>Mysql的校对规则和字符集设定</p>
-
-<p>Mysql 5.1支持如下特性</p>
-
-<p>使用多种字符集来存储字符串<br/>
-使用多种校对规则来比较字符串<br/>
-在同一台服务器、同一个数据库或甚至在同一个表中使用不同字符集或校对规则来混合字符串<br/>
-允许定义任何级别的字符集和校对规则<br/>
-由此我们知道，Mysql服务器、数据库、表单、列，这些的校对规则和字符集都是可以不一样的。</p>
-
-<p>也就是说，你可以设定数据库的字符为utf8,校对规则utf8<u>bin，表单的字符为utf8,校对规则为utf8</u>general_ci，列再使用别的字符和校对规则，这是没问题的。</p>
-
-<p>Confluence测试环境遇到的问题</p>
-
-<p>上周在测试环境测试Confluence，我把我们线上环境里面的数据库导入到按照官网设置的空白数据库。</p>
-
-<p>数据库的创建：</p>
-
-<p>CREATE DATABASE confluence CHARACTER SET utf8 COLLATE utf8_bin;<br/>
-数据库的导入</p>
-
-<p>mysql – u root -p wiki &lt; mysqldump.sql<br/>
-启动confluence，无法启动，总是报编码校对的错误。显示报错 ‘Detected tables with non-default character encoding/collation’ Message</p>
-
-<p>我按照官网提供的解决方法，修改了表单的字符校对规则，将所有80个表单的校对规则改成了utf8_bin.</p>
-
-<p>类似于这样：</p>
-
-<p>ALTER TABLE <code>wiki</code>.<code>AO_187CCC_SIDEBAR_LINK</code> CONVERT TO CHARACTER SET utf8_bin;<br/>
-重新启动，结果发现还是同样的问题，编码校对的错误</p>
-
-<p>然后经过同事的提示，去线上环境看了下，发现校对规则全部都是utf8<u>general</u>ci，于是改成了下面的格式</p>
-
-<p>ALTER TABLE <code>wiki</code>.<code>AO_187CCC_SIDEBAR_LINK</code> CONVERT TO CHARACTER SET utf8<u>general</u>ci;<br/>
-结果改完了还是这样的问题，最后彪哥解决了问题，重新创建了数据库，这样就可以了。</p>
-
-<p>CREATE DATABASE wiki DEFAULT CHARACTER SET ‘utf8’;<br/>
-原因就是，创建utf8字符集的数据库的时候，默认的校对规则是utf8<u>general</u>ci，我们的数据库最早创建的时候没有参考官方的这个教程，导致我们所有的表单也好，列也好，都是utf8<u>general</u>ci的校对规则。</p>
-
-<p>然后我在写sql进行转换的时候，只转换了数据库和表的校对规则，更改列的校对规则的时候，报错了，当时也不知道是为什么。</p>
-
-<p>总结一下：</p>
-
-<p>解决这个问题的方法</p>
-
-<p>1、改变新建数据库的默认编码（我们的办法）</p>
-
-<p>2、转换整个数据库里面的数据的编码（官网的建议—但修改校对规则会有报错，当时没看懂，有空再验证一下） </p>
-
-
-		</div>
-
-		
-
-	</article>
   
 	<div class="pagination">
 	 <a class="prev" href="all_2.html">&larr; Older</a> 
@@ -518,12 +472,25 @@ $(document).ready(function(event) {
 	        
 	        
 	      </li>
+	  
+	      <li class="post">
+	        <a href="%E8%A7%82%E7%82%B9.html"><strong>观点&nbsp;(1)</strong></a>
+	        
+	        
+	        
+	      </li>
 	   
 	  </ul>
 	</section>
 	<section>
 	  <h1>Recent Posts</h1>
 	  <ul id="recent_posts">
+	  
+	      
+		      <li class="post">
+		        <a href="14292904414145.html">世界这么大，你看看看个毛线</a>
+		      </li>
+	     
 	  
 	      
 		      <li class="post">
@@ -546,12 +513,6 @@ $(document).ready(function(event) {
 	      
 		      <li class="post">
 		        <a href="%E8%8E%AB%E5%90%AC%E7%A9%BF%E6%9E%97%E6%89%93%E5%8F%B6%E5%A3%B0%EF%BC%8C%E4%BD%95%E5%A6%A8%E5%90%9F%E5%95%B8%E4%B8%94%E5%BE%90%E8%A1%8C.html">莫听穿林打叶声，何妨吟啸且徐行</a>
-		      </li>
-	     
-	  
-	      
-		      <li class="post">
-		        <a href="macdown.html">Mac上的Markdown编辑器——MacDown</a>
 		      </li>
 	     
 	  
