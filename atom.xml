@@ -4,7 +4,7 @@
   <title><![CDATA[徐梦阳的博客]]></title>
   <link href="http://42wolf.github.io/atom.xml" rel="self"/>
   <link href="http://42wolf.github.io/"/>
-  <updated>2015-05-05T20:51:18+08:00</updated>
+  <updated>2015-05-05T21:14:37+08:00</updated>
   <id>http://42wolf.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,11 +14,43 @@
 
   
   <entry>
+    <title type="html"><![CDATA[100天行动计划之plank-第4天]]></title>
+    <link href="http://42wolf.github.io/plank4.html"/>
+    <updated>2015-05-05T21:14:21+08:00</updated>
+    <id>http://42wolf.github.io/plank4.html</id>
+    <content type="html"><![CDATA[
+<p>今天是我100天行动计划的第4天</p>
+
+<h2 id="toc_0">结果：</h2>
+
+<p>结果：1分43秒，再次刷新记录，比昨天多10秒<br/>
+￼<img src="media/14307483427274/14308316374731.jpg" alt=""/>￼￼</p>
+
+<h2 id="toc_1">总结</h2>
+
+<p>今日表现堪称完美，下次平板撑之前应该可以多说点段子缓解下女粉丝看到我时候的紧张心情</p>
+
+<h2 id="toc_2">证据</h2>
+
+<p>视频请访问我的公众号观看，虽然广大女粉丝的要求，我露腹肌，但考虑到还有未成年小朋友观看，下次面基的时候给你们看吧。</p>
+
+<h2 id="toc_3">其它</h2>
+
+<p>欢迎扫描二维码订阅我的微信公众号<br/>
+<img src="media/14298936061191/14302337947761.jpg" alt=""/>￼￼￼￼￼￼￼<br/>
+￼</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[还在用office?markdown让你和恼人的排版说拜拜！]]></title>
     <link href="http://42wolf.github.io/markdwon.html"/>
     <updated>2015-05-05T20:45:13+08:00</updated>
     <id>http://42wolf.github.io/markdwon.html</id>
     <content type="html"><![CDATA[
+<p><img src="media/14308299135997/14308307076649.jpg" alt=""/>￼</p>
+
 <h2 id="toc_0">什么是markdown?它能干什么?</h2>
 
 <p>如果大家有在电脑上写文字的需求，那么大家一定会使用过Office，相信大多数同学们在用office的时候，为了产生版式漂亮的文档，会花费大量的时间反复对格式进行调整。我仔细计算过，格式的最终调整至少会花掉写文档10%的时间，而这10%的时间是否可以节省下来呢？本文要介绍的markdown,就是为了减少文字工作者花费在排版上时间，专注于写作本身而设计产生的一种标记语言。学会了它，当你啪啪啪的在键盘上敲完你想要写的文章以后，你的这篇文章就已经排版好了，是不是很神奇？说到语言，大家（尤其是文科生）可能会有些恐惧，我向你保证，这个语言相当之好学，五分钟即可入门。</p>
@@ -85,7 +117,7 @@
 
 <pre><code>本文首发于我的网站: http://xumengyang.com ,由本人投递到各个渠道。
 转载请保留所有内容。
-原始链接：
+原始链接：http://xumengyang.com/markdwon.html
 </code></pre>
 
 <h3 id="toc_10">广告时间</h3>
@@ -1135,44 +1167,6 @@ Paypal创始人、Facebook第一位外部投资者彼得•蒂尔在本书中详
 </ul>
 
 <p>感觉这游戏完全就是为妹子设计的，玩起来是萌萌哒~~~~</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[手机也可以当做鼠标用！]]></title>
-    <link href="http://42wolf.github.io/14281602467088.html"/>
-    <updated>2015-04-04T23:10:46+08:00</updated>
-    <id>http://42wolf.github.io/14281602467088.html</id>
-    <content type="html"><![CDATA[
-<p>这是一款可以让你的手机变成Mac电脑鼠标的软件！<br/>
-<img src="media/14279961817481/14279964519094.jpg" alt="remotemouse"/>￼￼￼￼￼￼￼￼￼￼￼￼</p>
-
-<p><strong>Mac版</strong></p>
-
-<p>它能将你的ios和安卓设备，打造成一款好用的电脑的无线遥控器，同时它有如下功能：<br/>
-- 完美模拟鼠标点击<br/>
-- 支持多指触控<br/>
-- 横屏功能键盘<br/>
-- 多媒体遥控<br/>
-- 图像助手<br/>
-- 程序启动和切换面板<br/>
-- 远程关机启动重启注销<br/>
-￼- 数字键盘<br/>
-- 用挥动的方式来移动鼠标</p>
-
-<p>实际使用情况来看，只要两个客户端（手机+Mac）在同一个局域网下，只要打开就可以自动连接上，延迟很小，可以接受（但还得看网络情况）。</p>
-
-<p>Mac客户端是不收费的，但是在IOS下，分为免费版和收费版本，但日常使用的话：免费版就完全足够了。</p>
-
-<p>以下是软件的几个截图：<br/>
-<img src="media/14279961817481/14279971403860.jpg" alt="打开App功能"/>￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
-
-<p><img src="media/14279961817481/14279971712552.jpg" alt="键盘输入的功能"/>￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
-
-<p><img src="media/14279961817481/14279972007671.jpg" alt="关机重启等功能"/>￼￼￼￼￼￼￼￼￼￼￼￼￼</p>
-
-<p>￼￼￼不过把手机当成鼠标来使用，还是不太习惯 ：(</p>
 
 ]]></content>
   </entry>
