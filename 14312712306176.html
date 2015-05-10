@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <title>
     
-  confluence数据库校对规则的问题 - 徐梦阳的博客
+  你永远都叫不醒一个装睡的人 - 徐梦阳的博客
   
 
   </title>
@@ -72,84 +72,72 @@ $(document).ready(function(event) {
     <div id="content"> <div>
 	<article class="hentry" role="article">
 	<header>
-			  	<h1 class="entry-title">confluence数据库校对规则的问题</h1>
-				<p class="meta"><time datetime="2014-01-15T00:33:12+08:00" pubdate data-updated="true">2014/1/15</time></p>
+			  	<h1 class="entry-title">你永远都叫不醒一个装睡的人</h1>
+				<p class="meta"><time datetime="2015-05-10T23:20:30+08:00" pubdate data-updated="true">2015/5/10</time></p>
 			 </header>
 		  	<div class="entry-content">
-			  	<p>字符集和校对规则</p>
+			  	<pre><code>
+今天家里有事，没时间写了，正好在微信群里面和其它朋友说到关于驱动力的话题，po一篇很久以前写的文章吧。
 
-<p>字符集是一套字符和对应编码的集合，而对应的校对规则是对字符之间进行比较的一个或多个规则的集合。</p>
+</code></pre>
 
-<p>举个简单的例子：</p>
+<p>前几天刷朋友圈，有朋友说了如下一句话『忽然发现csdn弱爆了，ChinaUnix才是王道』，然后我告诉他，读点英文文档会比较好，然后我跟他掰扯了半天，他还是表示读中文文档比较好，读英文文档是装逼……</p>
 
-<p>A——0</p>
+<h3 id="toc_0">我自己的一些经历</h3>
 
-<p>B——1</p>
+<p>然后我就突然想到了一些关于自己的事情</p>
 
-<p>C——2</p>
+<p>大概是四年前，那时候我在某师范学院读大二，因为无聊，就一个人坐在宿舍打开爸妈给我买的Y460，装上vc++6.0刷oj，成天叫着嚷着要做师院第一ACM大牛，当时哪怕坚持刷半年，那水平也是相当的不错了，可惜后来我只刷了三天，于是总会想起那天晚上的画面，月亮有点弯，天有点冷，在得知我是我们学校唯一知道ACM这个东西的学生之后，我有点恍惚的用一指禅敲着键盘，猴哥点了根烟，轻蔑的笑了笑，看着我说了一声：“来一局？”，我一恍惚，便掉进了逃避的窟窿，过了很久才挣扎着爬了出来。</p>
 
-<p>a——3</p>
+<p>毕业以后我来到美团上班，做了一段时间的运维做的很不爽，吃饭的时候就跟江哥吐槽，说自己想去学开发，然后江哥问了我一句，既然你想做，为什么自己不去学会了呢，说到底，你还是不想做嘛，然后我觉得有道理，然后又想了一年多…</p>
 
-<p>b——4</p>
+<p>所以后来看很多人的时候，我就会拿他来和我过去的状态做个比较，大概估计的话，我觉得应该不会差的太远。</p>
 
-<p>c——5</p>
+<p>自从有妹子说我太过自我以后，我便努力改变了很多，比如说少说点自己做不到的事情，比如说正确的认识到自己的不足，比如说少自我膨胀，等等…</p>
 
-<p>类似于上面的这样的，左边的集合属于字符集，右边的集合属于编码集。</p>
+<p>但要一下彻底改掉自己几十年养下来的坏习惯，真的很难，只能一点点的去变，有同学大致跟我说过这样一句话：</p>
 
-<p>而校对规则就是用于字符之间互相比较的一套规则：</p>
+<blockquote>
+<p>知道自己的缺点却不去改正，是一件很搞笑的事情。</p>
+</blockquote>
 
-<p>比如我设定一个大小写敏感的规则，那么它就会把‘A’字符和‘a’字符当做两种不同的字符。</p>
+<p>我就觉得他说的很对，我听了很惭愧，作为一个人应该起码是要有点自尊心的，最起码不能被自己鄙视，我现在就做不到，于是就感觉很不好…</p>
 
-<p>但如果我设定一个大小写不敏感的字符规则，那么它就会把‘A’字符和‘a’字符当做完全一样的字符来进行校对处理。</p>
+<p>虽然自己是个半吊子，却还总想着去帮别人，但最后结果总是不太好，于是便悟出一个人生哲理**一个吃屎的狗，永远不会教会另外一条狗不吃屎，但是,它是有机会可以成为一个不吃屎的狗的。<br/>
+**</p>
 
-<p>Mysql的校对规则和字符集设定</p>
+<h3 id="toc_1">学弟的故事</h3>
 
-<p>Mysql 5.1支持如下特性</p>
+<p>我后来上大三，整天翘课去实验室玩，学着画点电路板，写点程序什么的，本来没什么，后来拿了一些现在看来毫无意义的奖，就有学弟找上门来要我带他，我给他拷了资料，给他指了个位子，就说先坐这儿吧，可以自己学，然后过学了几天，人就不见了，问起来总是说哎呀这个很难，那个不会，又没人教，当时我很想说去你妈的，然后我忍住了，挂了电话。</p>
 
-<p>使用多种字符集来存储字符串<br/>
-使用多种校对规则来比较字符串<br/>
-在同一台服务器、同一个数据库或甚至在同一个表中使用不同字符集或校对规则来混合字符串<br/>
-允许定义任何级别的字符集和校对规则<br/>
-由此我们知道，Mysql服务器、数据库、表单、列，这些的校对规则和字符集都是可以不一样的。</p>
+<p>昨天又听刘昌毅说</p>
 
-<p>也就是说，你可以设定数据库的字符为utf8,校对规则utf8<u>bin，表单的字符为utf8,校对规则为utf8</u>general_ci，列再使用别的字符和校对规则，这是没问题的。</p>
+<blockquote>
+<p>作为一个PM就是要证明自己在某种对一件事情理解的比别人透彻</p>
+</blockquote>
 
-<p>Confluence测试环境遇到的问题</p>
+<p>如果要说一个放之四海皆准的原则的话，那就是和菜头说的一句名言了:”<strong>我说的都是错的</strong>”因为把情景放大以后，道理就都是错的了。我觉得很多事情虽然现在我想得不对，随着时间的变化，总会想对的，至少还有希望。</p>
 
-<p>上周在测试环境测试Confluence，我把我们线上环境里面的数据库导入到按照官网设置的空白数据库。</p>
+<p>但有句话叫做，你永远也叫不醒一个装睡的人，对于那种装睡的人呢，我们能做的就是，不要在不必要的人身上花费不必要的时间…</p>
 
-<p>数据库的创建：</p>
+<h2 id="toc_2">修订</h2>
 
-<p>CREATE DATABASE confluence CHARACTER SET utf8 COLLATE utf8_bin;<br/>
-数据库的导入</p>
+<p>暂无</p>
 
-<p>mysql – u root -p wiki &lt; mysqldump.sql<br/>
-启动confluence，无法启动，总是报编码校对的错误。显示报错 ‘Detected tables with non-default character encoding/collation’ Message</p>
+<h2 id="toc_3">其它</h2>
 
-<p>我按照官网提供的解决方法，修改了表单的字符校对规则，将所有80个表单的校对规则改成了utf8_bin.</p>
+<h3 id="toc_4">声明</h3>
 
-<p>类似于这样：</p>
+<pre><code>本文首发于我的网站: http://xumengyang.com ,由本人投递到各个渠道。
+转载请保留所有内容。
+原始链接：
+</code></pre>
 
-<p>ALTER TABLE <code>wiki</code>.<code>AO_187CCC_SIDEBAR_LINK</code> CONVERT TO CHARACTER SET utf8_bin;<br/>
-重新启动，结果发现还是同样的问题，编码校对的错误</p>
+<h3 id="toc_5">广告时间</h3>
 
-<p>然后经过同事的提示，去线上环境看了下，发现校对规则全部都是utf8<u>general</u>ci，于是改成了下面的格式</p>
-
-<p>ALTER TABLE <code>wiki</code>.<code>AO_187CCC_SIDEBAR_LINK</code> CONVERT TO CHARACTER SET utf8<u>general</u>ci;<br/>
-结果改完了还是这样的问题，最后彪哥解决了问题，重新创建了数据库，这样就可以了。</p>
-
-<p>CREATE DATABASE wiki DEFAULT CHARACTER SET ‘utf8’;<br/>
-原因就是，创建utf8字符集的数据库的时候，默认的校对规则是utf8<u>general</u>ci，我们的数据库最早创建的时候没有参考官方的这个教程，导致我们所有的表单也好，列也好，都是utf8<u>general</u>ci的校对规则。</p>
-
-<p>然后我在写sql进行转换的时候，只转换了数据库和表的校对规则，更改列的校对规则的时候，报错了，当时也不知道是为什么。</p>
-
-<p>总结一下：</p>
-
-<p>解决这个问题的方法</p>
-
-<p>1、改变新建数据库的默认编码（我们的办法）</p>
-
-<p>2、转换整个数据库里面的数据的编码（官网的建议—但修改校对规则会有报错，当时没看懂，有空再验证一下） </p>
+<p>欢迎扫描二维码订阅我的微信公众号<br/>
+<img src="media/14298936061191/14302337947761.jpg" alt=""/>￼￼￼￼￼<br/>
+￼</p>
 
 			</div>
 		<footer>
@@ -158,7 +146,7 @@ $(document).ready(function(event) {
 			<strong>Categories:</strong>&nbsp; 
 			<span class="categories">
 			
-			    <a class='category' href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a>&nbsp;
+			    <a class='category' href='%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86.html'>个人管理</a>&nbsp;
 			
 			</span>
 		    </p>
@@ -202,12 +190,9 @@ var duoshuoQuery = {short_name:"42wolf"};
 
 	    <p class="meta">
 	    
-	        <a class="basic-alignment left" href="%E6%B5%85%E8%B0%88%E6%89%8E%E9%87%91%E8%8A%B1%E6%8A%80%E5%B7%A7.html"
-	        title="Previous Post: 浅谈扎金花技巧">&laquo; 浅谈扎金花技巧</a>
 	    
-	    
-	        <a class="basic-alignment right" href="%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98%EF%BC%8C%E5%BF%85%E6%9C%89%E5%9B%9E%E5%93%8D-2013%E5%B9%B4%E6%80%BB%E7%BB%93.html"
-	        title="Next Post: 念念不忘，必有回响—2013年总结">念念不忘，必有回响—2013年总结 &raquo;</a>
+	        <a class="basic-alignment right" href="PDCA.html"
+	        title="Next Post: 工作一直没有进步怎么办？试试PDCA法则吧!">工作一直没有进步怎么办？试试PDCA法则吧! &raquo;</a>
 	    
 	    </p>
 	  </footer>
