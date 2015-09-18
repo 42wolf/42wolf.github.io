@@ -1,86 +1,215 @@
-
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
     
   徐梦阳的博客
   
 
   </title>
-  <meta name="author" content="">
-  <meta name="description" content="怯懦的人只会埋葬自己">
+  <link href="atom.xml" rel="alternate" title="徐梦阳的博客" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
 
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="asset/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="atom.xml" rel="alternate" title="sjpsega's Blog" type="application/atom+xml">
-  <script src="asset/js/modernizr-2.0.js"></script>
-  <script src="asset/js/jquery.min.js"></script>
-  <style type="text/css">
-  .cat-children-p{ padding: 6px 0px;}
-  </style>
-  <script type="text/javascript">
-  var isAddSildbar = true;
-  </script>
-  <script src="asset/js/octopress.js" type="text/javascript"></script>
-</head>
-<script type="text/javascript">
-//链接新开窗口
-function addBlankTargetForLinks () {
-  $('a[href^="http"]').each(function(){
-      $(this).attr('target', '_blank');
-  });
-}
-$(document).ready(function(event) {
-  addBlankTargetForLinks();
-});
-</script>
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="index.html">徐梦阳的博客</a></h1>
-  
-    <h2>怯懦的人只会埋葬自己</h2>
-  
-</hgroup>
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        <li id="menu_item_index"><a href="index.html">HOME</a></li>
+        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" action="http://google.com/search" method="get">
     <input type="hidden" name="q" value="site:42wolf.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
+    <input tabindex="1" type="search" name="q"  placeholder="Search"/>
 </form>
-  
-<ul class="main-navigation">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="archives.html">Archives</a></li>
-</ul>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
 
 </nav>
-  <div id="main">
-    <div id="content"> 
-<div class="blog-index">
 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="github%E7%94%B1https%E8%BD%AC%E6%8D%A2%E6%88%90SSH%E7%99%BB%E9%99%86%E4%BB%8D%E7%84%B6%E9%9C%80%E8%A6%81%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98.html">github由https转换成SSH登陆仍然需要用户名密码的问题</a></h1>
-			<p class="meta"><time datetime="2013-04-16T00:09:42+08:00" 
-			pubdate data-updated="true">2013/4/16</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>我刚才在设置我的github的时候发现，https的push实在是太麻烦了，于是按照官方的教程配置好了SSHkey，可是配置好了以后.</p>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 徐梦阳的博客</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+       
+       <li><a href="index.html">HOME</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+
+    <li><label>Categories</label></li>
+
+        
+            <li><a href="issuecategery.html">新东西</a></li>
+        
+            <li><a href="issuecategery.html">思考</a></li>
+        
+            <li><a href="emotion.html">情绪</a></li>
+        
+            <li><a href="%E6%97%A7%E6%96%87%E7%AB%A0.html">旧文章</a></li>
+        
+            <li><a href="pm.html">产品方法论</a></li>
+        
+            <li><a href="%E8%A7%82%E7%82%B9.html">观点</a></li>
+        
+            <li><a href="%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86.html">个人管理</a></li>
+         
+
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+
+        <section id="main-content" role="main" class="scroll-container">
+ <script type="text/javascript">
+	$(function(){
+		$('#menu_item_index').addClass('is_active');
+	});
+</script>
+<div class="row">
+	<div class="large-8 medium-8 columns">
+		<div class="markdown-body home-categories">
+		
+			<div class="article">
+                <a class="clearlink" href="%E5%81%9A%E6%99%AE%E9%80%9A%E7%9A%84%E4%BA%BA%EF%BC%8C%E5%B9%B2%E6%99%AE%E9%80%9A%E7%9A%84%E4%BA%8B.html">
+                
+                  <h1>做普通的人，干普通的事</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>曾经一直都觉得自己是个精力超常的人，自己是个聪明绝顶的人，是个酒量超天的人，是个做什么事情都能做到最好的人。</p>
+
+<p>但是后来的一次次的失败都在提醒我，我的想法是错的。一切都只不过是自己的幻觉罢了，而我却一直选择性的忽视掉了。而从没考上好的大学开始，我就一味的把自己的失败归结于自己的不够努力。然后到参加飞思卡尔，到数学建模，到考研，到学习，每一步我都是这样想，其实这本身都是没有任何问题的，但我却总是给自己一种暗示:“我是个有着如此多优秀品格的人，只要努力，我就一定能够做到最好”。所以我一直都给自己的期望就是:做最牛逼的人，干最牛逼的事。</p>
+
+<p>可是后来我发现，有些事情的确不是我能够做到的，比如我数学建模的时候能够三天三夜不睡觉，但我的确没有作出什么事情来，说明我真的是不够聪明。做飞思卡尔的时候，半夜调车困得半死，说明我的确精力不够旺盛。过年和小黑他们一起喝酒，喝到现在白酒已经不能沾口，说明我的确不是个能喝酒的人。</p>
+
+<p>我们都是普通人，要知道，人在一定的时间里，是有他上限的。当然，我一直都相信上限是可以通过努力而不断提高的。但是，在很短的时间里，是不会有太大的变化的。所以，不要给自己在某个阶段定下太大的目标，慢慢来嘛。</p>
+
+<p>要先从简单的事情做起才能把事情做好。《失控》里面有一章说到构建生态系统，就是从最简单的生态系统开始，然后一层一层的叠加，以至于达到自然级生态系统的仿真。思维也是一样，实质的思考稳固了，才能想更复杂抽象的东西。而我多年来一直都享受于这种本末倒置的学习状态中不曾感觉到，譬如我上高中的时候做物理难题是个好手，几乎所有的物理题我都能找到正确的解题思路，但我的物理成绩总是很差，因为我数学学的不好，而数学不好的原因是:我讨厌重复的计算，所以我的计算能力很差。舍本逐末的方式让我吃了很多亏。<br/>
+把复杂的东西简单化，有时候反而能够更清晰的看到事情的本质，这个曾经是我最佩服朱老师的一点，而到了现在，我也似乎也学到了一丝皮毛，然后我就觉得很开心。</p>
+
+<p>我这么多年的长时间的写东西，刚开始的时候是为了装逼给别人看，后来改成发泄自己的情绪，再后来就是到现在，慢慢的在写的时候也会思考一些东西，比如自己哪些地方做的不对，哪些地方需要改进。</p>
+
+<p>过去我给自己订的目标太大了，所以负担就很大，迈不开步子。现在的我有些事情算是想明白了，比如说其实我就是一个普通人，只能做普通的事，但做事情的关键是要让自己开心。突然想到初一的时候看少年文艺里面连载的一篇小说，不记得是叫《男生贾里》还是《女生贾梅》，还是叫什么名字，一个学生说，他们班有个同学，他妈妈冬天给他洗屁股，一下把他的毛线裤和外面的裤子脱光了，然后他很生气，把裤子又穿了上去，然后告诉他妈妈，饭要一口一口吃，裤子要一件一件脱……觉得很有意思。</p>
+
+<p>有时候人被困在某个角落里爬不出来，就得需要别人拉一把，真的很感谢许多朋友和同学问我的那些我没有思考过的问题，还有那个我现在还不知道名字给我打电话鼓励我的同学。</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/4/24</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="%E6%AF%95%E4%B8%9A%E5%AD%A3.html">
+                
+                  <h1>毕业季</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>人必须要坦然面对自己。</p>
+
+<p>比如我写了这么久的博客，看的人也就那么几个，我活了二十多年，最关注我的也只有父母，喜欢过那么多的姑娘，却没有见到姑娘说喜欢过我。</p>
+
+<p>我是属于那种从来没有过叛逆期的人，遇到点事情总会压在心里。而青春期的荷尔蒙压抑到一定程度总是需要另外一种渠道去发泄，可能是我不能忍受现实中自己的普通和平凡从而由此而产生的孤独和被漠视，我在网上写的文字都很疯狂，平时突然冒出的话也经常很经常让人感到无法理解，很多同学都说我是个很奇怪的人，大抵是因为我的表现很让人奇怪吧，吓着大家了。</p>
+
+<p>可能还是我这个人比较喜欢逃避问题吧？</p>
+
+<p>仔细想想，其实我就是个很普通的人啊，为什么要给自己安下那么多包袱？为什么会给自己定那么多目标呢？达到了目标又怎么样呢？</p>
+
+<p>无非是再挖一个一个的坑，自己往里面跳而已。</p>
+
+<p>理想是个什么东西？</p>
+
+<p>以前总是会觉得，理想就是做最牛逼的人，干最牛逼的事 。现在我想明白了，理想就是做普通的人，做自己喜欢做的事。</p>
+
+<p>其实，这才是最牛逼的。</p>
+
+<p>在家门前看到通往初中的那条走了无数遍的路，路旁边的树叶都长起来了，真的真的很漂亮，我也很久没有在春天的时候呆在家了。</p>
+
+<p>快毕业了啊，毕业了。不能重新来过，只能从现在开始。</p>
+
+<p>生活永远都是这样，我会想念你们的。</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/4/21</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="github%E7%94%B1https%E8%BD%AC%E6%8D%A2%E6%88%90SSH%E7%99%BB%E9%99%86%E4%BB%8D%E7%84%B6%E9%9C%80%E8%A6%81%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98.html">
+                
+                  <h1>github由https转换成SSH登陆仍然需要用户名密码的问题</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>我刚才在设置我的github的时候发现，https的push实在是太麻烦了，于是按照官方的教程配置好了SSHkey，可是配置好了以后.</p>
 
 <p><code>git push</code></p>
 
@@ -102,22 +231,38 @@ $(document).ready(function(event) {
 
 <p>哈哈，然后<code>git push</code>就搞定了，nice !enjoy!</p>
 
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/4/16</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
-		</div>
-
-		
-
-	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="disturb.html">莫名其妙</a></h1>
-			<p class="meta"><time datetime="2013-03-12T00:07:04+08:00" 
-			pubdate data-updated="true">2013/3/12</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>在学校玩着游戏，舍友说要去南京找工作，于是我莫名其妙的收拾收拾东西，随便凑了个简历，也跑来南京了。</p>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="disturb.html">
+                
+                  <h1>莫名其妙</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>在学校玩着游戏，舍友说要去南京找工作，于是我莫名其妙的收拾收拾东西，随便凑了个简历，也跑来南京了。</p>
 
 <p>结果被一家做PHP的公司看到了，于是叫我去面试，我说除了C语言，我什么都不会，面试我的老大说，有C语言基础就好，php很好学的，于是莫名其妙的拿着不到做嵌入式一半的工资就去了，说不清楚为什么，稀里糊涂的就上班了。</p>
 
@@ -129,22 +274,38 @@ $(document).ready(function(event) {
 
 <p>我其实也很期待。</p>
 
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/3/12</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
-		</div>
-
-		
-
-	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="%E4%BF%A1%E6%81%AF%E7%84%A6%E8%99%91%E7%97%87.html">信息焦虑症</a></h1>
-			<p class="meta"><time datetime="2013-01-25T00:05:35+08:00" 
-			pubdate data-updated="true">2013/1/25</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>信息焦虑</p>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="%E4%BF%A1%E6%81%AF%E7%84%A6%E8%99%91%E7%97%87.html">
+                
+                  <h1>信息焦虑症</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>信息焦虑</p>
 
 <p>比如说SNS啊，过一会儿就想刷新一下，比如说微博啊，一看到技术牛人说几句有趣的新奇的东西就想顺着链接点下去，点点点，点到后面什么都没有学到，反而浪费了大量的时间。</p>
 
@@ -182,22 +343,38 @@ $(document).ready(function(event) {
 
 <p>平台，简单的说就是，快速试错，快速学习。</p>
 
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/1/25</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
-		</div>
-
-		
-
-	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="%E9%9C%80%E8%A6%81%E4%B8%93%E6%B3%A8%E8%B5%B7%E6%9D%A5%E4%BA%86.html">需要专注起来了</a></h1>
-			<p class="meta"><time datetime="2013-01-20T00:01:57+08:00" 
-			pubdate data-updated="true">2013/1/20</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>今天安装vim的插件的时候，发现自己以前曾经配置过这样的VIm插件的，可是自己却完全忘了，和第一次配置的时候一样，谷歌与百度共上，键盘与大脑齐飞 ，后果就是嘴里吐出一句话[和谐社会要屏蔽]上次用了半个小时，这次用了40分钟。。。<br/>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="%E9%9C%80%E8%A6%81%E4%B8%93%E6%B3%A8%E8%B5%B7%E6%9D%A5%E4%BA%86.html">
+                
+                  <h1>需要专注起来了</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>今天安装vim的插件的时候，发现自己以前曾经配置过这样的VIm插件的，可是自己却完全忘了，和第一次配置的时候一样，谷歌与百度共上，键盘与大脑齐飞 ，后果就是嘴里吐出一句话[和谐社会要屏蔽]上次用了半个小时，这次用了40分钟。。。<br/>
 发现自己很多事情都是这样，舍本逐末。<br/>
 我刚学C语言的时候总是想着用linux来开发，用Gcc用Vim，然后各种命令行，想我学会了一定会很爽 ，巴拉巴拉的。于是不去学C语言，改去学Linux，改去学Vim，改去学Gcc…结果呢，花了大量的时间了解了以后，却又坚持不下去，不去写。慢慢的又忘了C语言该怎么写了。。于是我想，自学了三年多的计算机，为什么我依旧还是个菜鸟？因为不够专注和坚持不够。<br/>
 老师建议我 “只做一件事情”，我觉得可以理解为在某个特定的时间，特定的只做一件事情，就是说：“要专注”，我不是说Linux啊，Vim啊什么的不应该学。而是，抓住事情的本质，花费最宝贵的时间学对自己最重要的东西。<br/>
@@ -212,22 +389,38 @@ $(document).ready(function(event) {
 
 <p>每天都要敲代码，保持手感。</p>
 
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/1/20</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
-		</div>
-
-		
-
-	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="super-fast-read.html">《超级快速阅读》读书笔记</a></h1>
-			<p class="meta"><time datetime="2012-08-23T00:00:33+08:00" 
-			pubdate data-updated="true">2012/8/23</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>这本书我花了大概两个小时左右的时间来看，因为时间管理的东西和我以前在其他时间管理的书籍上看的都差不多，所以这部分我只是大致的浏览了一遍，主要看的是作者怎么讲快速阅读和快速记忆的。<br/>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="super-fast-read.html">
+                
+                  <h1>《超级快速阅读》读书笔记</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>这本书我花了大概两个小时左右的时间来看，因为时间管理的东西和我以前在其他时间管理的书籍上看的都差不多，所以这部分我只是大致的浏览了一遍，主要看的是作者怎么讲快速阅读和快速记忆的。<br/>
 当然，如果你是《30天学会XXX》，《7天搞定XXX》等书籍的爱好者，我想这本书并不适合你，这本书教你的是如何避免“浪费精力”和“高效学习”，如果你读了以后，并不对其加以实践，那么，读这本书的意义又在于什么呢?</p>
 
 <p>这本书主要讲时间管理的部分<br/>
@@ -255,22 +448,38 @@ $(document).ready(function(event) {
 <p>主要就是这么点东西。<br/>
 这本书其实自己的东西并不是太多，感觉各种时间管理，思维导图的东西都有一点，不过作者将其结合的非常好，这种方面的学习方法可以尝试一下，但这书除了训练阅读速度的方法以外，并不适合文学，散文之类书籍的阅读，因为这种快速阅读方法主要目的是为了获取知识，而文学作品的目的和获取知识其实并不一样吧。</p>
 
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2012/8/23</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
-		</div>
-
-		
-
-	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="dingwei.html">博客的定位</a></h1>
-			<p class="meta"><time datetime="2012-07-03T23:58:51+08:00" 
-			pubdate data-updated="true">2012/7/3</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>之前建立博客半年的时间里，由于自己对博客的定位不清晰，和自己做事太过懒惰和喜爱敷衍的坏习惯，不经过大量的思考就写了一大堆的东西，从而导致博客文章的质量不高，也不符合我建立这个博客的初衷，觉得很不满，于是愤然删除掉了所有没有价值的文章，重新审视自己建立这个博客的原因</p>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="dingwei.html">
+                
+                  <h1>博客的定位</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>之前建立博客半年的时间里，由于自己对博客的定位不清晰，和自己做事太过懒惰和喜爱敷衍的坏习惯，不经过大量的思考就写了一大堆的东西，从而导致博客文章的质量不高，也不符合我建立这个博客的初衷，觉得很不满，于是愤然删除掉了所有没有价值的文章，重新审视自己建立这个博客的原因</p>
 
 <p>2012年2月7日，我在学校论坛站长番茄的帮助下，在一个国外的虚拟主机上搭建了这个博客<br/>
 其实自己本来建立这个博客的目的在于希望在互联网上建立一个能够表达自己想法的地方，去发现并认识爱思考，爱学习的朋友，共同成长一起进步。<br/>
@@ -289,194 +498,208 @@ $(document).ready(function(event) {
 【阅读，思考，行动，成长】<br/>
 因为自己比较喜爱阅读，希望自己能够通过不断的阅读和思考，然后将思考付诸于行动，达到自己个人成长的目的。</p>
 
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2012/7/3</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='%E6%97%A7%E6%96%87%E7%AB%A0.html'>旧文章</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
 
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+              
+
+
+			<div class="row">
+			  <div class="large-6 columns">
+			  <p class="text-left" style="padding-top:25px;">
+			   <a href="all_6.html">&laquo; Prev Page</a>  
+			  </p>
+			  </div>
+			  <div class="large-6 columns">
+			<p class="text-right" style="padding-top:25px;">
+			 <a href="all_8.html">&raquo; Next Page</a> 
+			</p>
+			  </div>
+			</div>
 		</div>
+	</div><!-- large 8 -->
 
-		
-
-	</article>
- 
-	<article>
-		 <header>
-		  	<h1 class="entry-title"><a href="delaying-disease-and-anxiety.html">拖延症和焦虑</a></h1>
-			<p class="meta"><time datetime="2012-03-31T23:56:38+08:00" 
-			pubdate data-updated="true">2012/3/31</time></p>
-		 </header>
-	  	<div class="entry-content">
-		  	
-		  	<p>最近在努力克服自己的拖延症和焦虑感。</p>
-
-<p>发现自己一直以来都依旧很难集中精力干一件事。例如背单词时候经常会冒出系统要不要重做，清明放假回家以后到底吃什么的奇怪的乱七八糟的想法。这种学习习惯的确是很可怕的，因为人的精力是有限的，就拿计算机来说吧，计算机操作系统是可以多任务同时运行的，譬如你可以在用电脑听音乐的时候一边上网一边和家里人视频，这就是传说中的：“多任务运行。”</p>
-
-<p>但是大家经常在拷贝文件到U盘的时候，有没有这样的经验，同时复制两个文件加起来花的时间还不如先拷贝好一个文件，才去拷贝另外一个文件加起来的时间多。为什么会这样呢？因为操作系统在执行多任务的时候实际上是时刻不停的在各个进程里切换的，这些进程虽然看起来是同时发生的，其实不然，他们是在以很快的速度不停地切换，切换，切换，人是感觉不出来的。虽然这样某些时刻比较方便，但是它在切换的过程中却损失了大量的时间。人脑也是如此，只有在大脑精神高度集中的做一件事情的时候，人的工作效率才能达到最高值。曾经我也和老师交流过关于学习的东西太多很难掌握的问题，老师给的建议就是——只做好一件事情。</p>
-
-<p>在我看来很多看起来很聪明的人学习效率很高的同学比起我们最大的不同就是做事情的专注和认真。</p>
-
-<p>最近锻炼自己，每每到学习不够专注的时候，就提醒自己，集中注意力做好一件事，才是成功的不二法门。<br/>
-王小波说：“人最本质的痛苦大概就是自己的理想和自己现实的无能之间的差距”。我想我的大部分焦虑 可能便源自于此，看了刘未鹏在博客上推荐的书，然后找了卡耐基的《人性的弱点》来看，果然是本好书，我利用走路吃饭上厕所的闲暇的时间把这本书给看完了，焦虑感果然有了明显的改善。<br/>
-不过某种拖延症的习惯真的很难去改变，就好比今天下午面对厚厚的C语言书没有去看，产生了畏惧感，于是跑回寝室睡了一下午一样。。</p>
-
-<p>刚刚有所改变，立马就是各种意志不坚定，然后就是各种悲剧……TAT</p>
-
-<p>今天在寻找好的治疗拖延症方法的时候，突然看到一个观点，就是说一个人不停的寻找治疗拖延症方法的过程其实也是拖延症的一种表现。。</p>
-
-<p>难道我已经陷入其中了么？</p>
-
-<p>古人说知易行难，事实证明的确如此，<strong>知行合一</strong>是最难做到的。</p>
-
-<p>坚持去做就好了吧，一切都会好起来的。。。</p>
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <h1>徐梦阳的博客</h1>
+                <div class="site-des">怯懦的人只会埋葬自己</div>
+                <div class="social">
 
 
-		</div>
 
-		
 
-	</article>
-  
-	<div class="pagination">
-	
-<a href="archives.html">Blog Archives</a>
-	 <a class="next" href="all_6.html">Newer &rarr;</a>  
-	    
-	</div>
+
+
+
+
+
+
+
+  <a class="rss" href="atom.xml" title="RSS">RSS</a>
+                
+              	 </div>
+          	</div>
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="issuecategery.html"><strong>新东西</strong></a>
+        
+            <a href="issuecategery.html"><strong>思考</strong></a>
+        
+            <a href="emotion.html"><strong>情绪</strong></a>
+        
+            <a href="%E6%97%A7%E6%96%87%E7%AB%A0.html"><strong>旧文章</strong></a>
+        
+            <a href="pm.html"><strong>产品方法论</strong></a>
+        
+            <a href="%E8%A7%82%E7%82%B9.html"><strong>观点</strong></a>
+        
+            <a href="%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86.html"><strong>个人管理</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="14396145177506.html">《交办的技术》读书笔记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14381800336424.html">从曲径被封聊聊我的科学上网史以及方法推荐</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14380090729900.html">如何避免无效社交——最大化沟通效果四原则</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14372924552883.html">请从现在开始，思考你的工作吧！</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="write_blog.html">为什么要写博客？聊聊我写博客这三年</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
+  <div class="row">
+   <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
 </div>
- <aside class="sidebar"> 
 
-	<section>
-	  <h1>Categories</h1>
-	  <ul id="recent_posts">
-	  
-	      <li class="post">
-	        <a href="issuecategery.html"><strong>新东西&nbsp;(8)</strong></a>
-	         <p class="cat-children-p"> 
-	        
-	        	<a href="issuecategery.html">软件推荐&nbsp;(3)</a>&nbsp;&nbsp;
-	        
-	        	<a href="read.html">阅读&nbsp;(5)</a>&nbsp;&nbsp;
-	        
-	         </p> 
-	      </li>
-	  
-	      <li class="post">
-	        <a href="issuecategery.html"><strong>思考&nbsp;(2)</strong></a>
-	        
-	        
-	        
-	      </li>
-	  
-	      <li class="post">
-	        <a href="emotion.html"><strong>情绪&nbsp;(2)</strong></a>
-	        
-	        
-	        
-	      </li>
-	  
-	      <li class="post">
-	        <a href="%E6%97%A7%E6%96%87%E7%AB%A0.html"><strong>旧文章&nbsp;(31)</strong></a>
-	        
-	        
-	        
-	      </li>
-	  
-	      <li class="post">
-	        <a href="pm.html"><strong>产品方法论&nbsp;(4)</strong></a>
-	        
-	        
-	        
-	      </li>
-	  
-	      <li class="post">
-	        <a href="%E8%A7%82%E7%82%B9.html"><strong>观点&nbsp;(2)</strong></a>
-	        
-	        
-	        
-	      </li>
-	  
-	      <li class="post">
-	        <a href="%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86.html"><strong>个人管理&nbsp;(12)</strong></a>
-	        
-	        
-	        
-	      </li>
-	   
-	  </ul>
-	</section>
-	<section>
-	  <h1>Recent Posts</h1>
-	  <ul id="recent_posts">
-	  
-	      
-		      <li class="post">
-		        <a href="14380090729900.html">如何避免无效社交——最大化沟通效果四原则</a>
-		      </li>
-	     
-	  
-	      
-		      <li class="post">
-		        <a href="14372924552883.html">请从现在开始，思考你的工作吧！</a>
-		      </li>
-	     
-	  
-	      
-		      <li class="post">
-		        <a href="write_blog.html">为什么要写博客？聊聊我写博客这三年</a>
-		      </li>
-	     
-	  
-	      
-		      <li class="post">
-		        <a href="14352455164160.html">我们究竟需要什么样的人才？</a>
-		      </li>
-	     
-	  
-	      
-		      <li class="post">
-		        <a href="14328212702286.html">光有方法论怎么行？工作日志帮你更好的搞定工作！</a>
-		      </li>
-	     
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	   
-	  </ul>
-	</section>
-	
-</aside> </div></div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 -  -
-  <span class="credit">Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; Theme by <a href="http://octopress.org">Octopress</a></span>
-</p>
+        </section>
+      </div>
+    </div>
 
-</footer>
-<script src="asset/flow-sequence-chart/raphael-min.js"></script><script src="asset/flow-sequence-chart/underscore-min.js"></script><script src="asset/flow-sequence-chart/flowchart.min.js"></script><script src="asset/flow-sequence-chart/sequence-diagram-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
-<script type="text/x-mathjax-config">if (typeof MathJaxListener !== 'undefined') { MathJax.Hub.Register.StartupHook('End', function () { MathJaxListener.invokeCallbackForKey_('End'); }); } </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+    
+
+    <script src="asset/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
+     
+    </script>
+
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -486,5 +709,6 @@ $(document).ready(function(event) {
   ga('create', 'UA-61550939-1', 'auto');
   ga('send', 'pageview');
 </script>
-</body>
+
+  </body>
 </html>
