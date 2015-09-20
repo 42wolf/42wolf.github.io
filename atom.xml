@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[徐梦阳的博客]]></title>
-  <link href="http://42wolf.github.io/atom.xml" rel="self"/>
-  <link href="http://42wolf.github.io/"/>
-  <updated>2015-09-20T10:02:50+08:00</updated>
-  <id>http://42wolf.github.io/</id>
+  <link href="http://xumengyang.com/atom.xml" rel="self"/>
+  <link href="http://xumengyang.com/"/>
+  <updated>2015-09-20T10:10:32+08:00</updated>
+  <id>http://xumengyang.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -14,9 +14,9 @@
   
   <entry>
     <title type="html"><![CDATA[让所有人带着对你的质疑去死]]></title>
-    <link href="http://42wolf.github.io/%E8%AE%A9%E6%89%80%E6%9C%89%E4%BA%BA%E5%B8%A6%E7%9D%80%E5%AF%B9%E4%BD%A0%E7%9A%84%E8%B4%A8%E7%96%91%E5%8E%BB%E6%AD%BB.html"/>
+    <link href="http://xumengyang.com/%E8%AE%A9%E6%89%80%E6%9C%89%E4%BA%BA%E5%B8%A6%E7%9D%80%E5%AF%B9%E4%BD%A0%E7%9A%84%E8%B4%A8%E7%96%91%E5%8E%BB%E6%AD%BB.html"/>
     <updated>2015-09-18T10:42:15+08:00</updated>
-    <id>http://42wolf.github.io/%E8%AE%A9%E6%89%80%E6%9C%89%E4%BA%BA%E5%B8%A6%E7%9D%80%E5%AF%B9%E4%BD%A0%E7%9A%84%E8%B4%A8%E7%96%91%E5%8E%BB%E6%AD%BB.html</id>
+    <id>http://xumengyang.com/%E8%AE%A9%E6%89%80%E6%9C%89%E4%BA%BA%E5%B8%A6%E7%9D%80%E5%AF%B9%E4%BD%A0%E7%9A%84%E8%B4%A8%E7%96%91%E5%8E%BB%E6%AD%BB.html</id>
     <content type="html"><![CDATA[
 <p><img src="media/14425441349995/14425456732978.jpg" alt=""/></p>
 
@@ -57,9 +57,9 @@
   
   <entry>
     <title type="html"><![CDATA[关于我]]></title>
-    <link href="http://42wolf.github.io/about.html"/>
+    <link href="http://xumengyang.com/about.html"/>
     <updated>2015-09-18T09:56:18+08:00</updated>
-    <id>http://42wolf.github.io/about.html</id>
+    <id>http://xumengyang.com/about.html</id>
     <content type="html"><![CDATA[
 <p>Hi~ 我是徐梦阳，目前是一个创业公司的产品锦鲤。</p>
 
@@ -75,9 +75,9 @@
   
   <entry>
     <title type="html"><![CDATA[《交办的技术》读书笔记]]></title>
-    <link href="http://42wolf.github.io/14396145177506.html"/>
+    <link href="http://xumengyang.com/14396145177506.html"/>
     <updated>2015-08-15T12:55:17+08:00</updated>
-    <id>http://42wolf.github.io/14396145177506.html</id>
+    <id>http://xumengyang.com/14396145177506.html</id>
     <content type="html"><![CDATA[
 <p>因为公司缺人，前段时间开始找外包的团队来做项目，因为自己缺乏和外包打交道的经验，在这个过程中出现了一些合作上的小问题，不过还好已经解决了。然后就想找下这方面的书看下，多了解了解如何把一件事情交付给别人的知识。</p>
 
@@ -147,9 +147,9 @@
   
   <entry>
     <title type="html"><![CDATA[从曲径被封聊聊我的科学上网史以及方法推荐]]></title>
-    <link href="http://42wolf.github.io/14381800336424.html"/>
+    <link href="http://xumengyang.com/14381800336424.html"/>
     <updated>2015-07-29T22:27:13+08:00</updated>
-    <id>http://42wolf.github.io/14381800336424.html</id>
+    <id>http://xumengyang.com/14381800336424.html</id>
     <content type="html"><![CDATA[
 <p><img src="media/14381800336424/14381800500710.jpg" alt=""/></p>
 
@@ -199,9 +199,9 @@
   
   <entry>
     <title type="html"><![CDATA[如何避免无效社交——最大化沟通效果四原则]]></title>
-    <link href="http://42wolf.github.io/14380090729900.html"/>
+    <link href="http://xumengyang.com/14380090729900.html"/>
     <updated>2015-07-27T22:57:52+08:00</updated>
-    <id>http://42wolf.github.io/14380090729900.html</id>
+    <id>http://xumengyang.com/14380090729900.html</id>
     <content type="html"><![CDATA[
 <p><img src="media/14380090729900/14380095411255.jpg" alt=""/></p>
 
@@ -246,9 +246,9 @@
   
   <entry>
     <title type="html"><![CDATA[请从现在开始，思考你的工作吧！]]></title>
-    <link href="http://42wolf.github.io/14372924552883.html"/>
+    <link href="http://xumengyang.com/14372924552883.html"/>
     <updated>2015-07-19T15:54:15+08:00</updated>
-    <id>http://42wolf.github.io/14372924552883.html</id>
+    <id>http://xumengyang.com/14372924552883.html</id>
     <content type="html"><![CDATA[
 <p><img src="media/14372924552883/14372933066585.jpg" alt=""/></p>
 
@@ -362,9 +362,9 @@
   
   <entry>
     <title type="html"><![CDATA[为什么要写博客？聊聊我写博客这三年]]></title>
-    <link href="http://42wolf.github.io/write_blog.html"/>
+    <link href="http://xumengyang.com/write_blog.html"/>
     <updated>2015-06-27T22:04:30+08:00</updated>
-    <id>http://42wolf.github.io/write_blog.html</id>
+    <id>http://xumengyang.com/write_blog.html</id>
     <content type="html"><![CDATA[
 <blockquote>
 <p>之前答应过订阅公众号的同学来写一篇我为什么坚持写博客的文章，这篇便是回应</p>
@@ -436,9 +436,9 @@
   
   <entry>
     <title type="html"><![CDATA[我们究竟需要什么样的人才？]]></title>
-    <link href="http://42wolf.github.io/14352455164160.html"/>
+    <link href="http://xumengyang.com/14352455164160.html"/>
     <updated>2015-06-25T23:18:36+08:00</updated>
-    <id>http://42wolf.github.io/14352455164160.html</id>
+    <id>http://xumengyang.com/14352455164160.html</id>
     <content type="html"><![CDATA[
 <p>上次写了一下自己两年前的感悟，因为最近要筛教实习生如何去筛简历，所以就写一下筛选简历时需要注意的事项，懒得写文档了。如何去针对企业的要求写简历，是可以通过这个来逆推的。需要找工作的同学可以参考参考</p>
 
@@ -531,9 +531,9 @@
   
   <entry>
     <title type="html"><![CDATA[光有方法论怎么行？工作日志帮你更好的搞定工作！]]></title>
-    <link href="http://42wolf.github.io/14328212702286.html"/>
+    <link href="http://xumengyang.com/14328212702286.html"/>
     <updated>2015-05-28T21:54:30+08:00</updated>
-    <id>http://42wolf.github.io/14328212702286.html</id>
+    <id>http://xumengyang.com/14328212702286.html</id>
     <content type="html"><![CDATA[
 <p>作为一个产品经理，时间永远都是不够用的，不管是做市场研究、还是产品设计、研发项目的跟踪，策略的制定，还是做营销支撑，产品的各方面的工作都要产品经理参与其中，为了保证自己不被工作给累死，同时的进步，就需要有一个可延续的时间管理和工作迭代方法，前几篇文章，我都有介绍过工作的几个基本的方法论，有兴趣的看看我微信号里面写的关于工作方法论的文章。</p>
 
@@ -593,9 +593,9 @@
   
   <entry>
     <title type="html"><![CDATA[时间记录的神器—rescuetime]]></title>
-    <link href="http://42wolf.github.io/14322860765318.html"/>
+    <link href="http://xumengyang.com/14322860765318.html"/>
     <updated>2015-05-22T17:14:36+08:00</updated>
-    <id>http://42wolf.github.io/14322860765318.html</id>
+    <id>http://xumengyang.com/14322860765318.html</id>
     <content type="html"><![CDATA[
 <p>很久以前，我读过一本书，叫做《奇特的一生》，说的就是俄罗斯一名伟大的生物学家，使用的时间日志法对自己行为进行记录并持续进行改进，最终结束自己奇特一生的事情。</p>
 
@@ -644,9 +644,9 @@
   
   <entry>
     <title type="html"><![CDATA[目标无法达成？Smart五点原则帮助你！]]></title>
-    <link href="http://42wolf.github.io/smart.html"/>
+    <link href="http://xumengyang.com/smart.html"/>
     <updated>2015-05-17T09:25:40+08:00</updated>
-    <id>http://42wolf.github.io/smart.html</id>
+    <id>http://xumengyang.com/smart.html</id>
     <content type="html"><![CDATA[
 <p>HI~ 大家好啦，梦阳君前几次跟大家普及了一下工作和学习中最基本的方法论——PDCA和5W1H（没看过的可以分别在微信号里面输入：PDCA、5W1H来查看），在PDCA里面，从质量上游的角度来看，计划制定的成功与否，往往最终决定这个事情能否成功，所以说，其中最重要的就是做计划，所以今天我们来讨论一下如何更好的制定工作计划。</p>
 
@@ -733,9 +733,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[遇到问题理不清头绪怎么办？试试5W1H法则吧]]></title>
-    <link href="http://42wolf.github.io/5W1H.html"/>
+    <link href="http://xumengyang.com/5W1H.html"/>
     <updated>2015-05-11T22:41:44+08:00</updated>
-    <id>http://42wolf.github.io/5W1H.html</id>
+    <id>http://xumengyang.com/5W1H.html</id>
     <content type="html"><![CDATA[
 <p>在上一篇文章里面，我有写到了PDCA法则（没看到的请在微信公众平台回复PDCA即可）,但我们在工作过程中，往往会遇到问题的时候理不清楚头绪，不知道如何下手的问题，这个时候，我们就需要采用一个新的方法：『5W1H法则』作为PDCA基本原则的补充，以此来处理我们所遇到的问题。</p>
 
@@ -825,9 +825,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[你永远都叫不醒一个装睡的人]]></title>
-    <link href="http://42wolf.github.io/14312712306176.html"/>
+    <link href="http://xumengyang.com/14312712306176.html"/>
     <updated>2015-05-10T23:20:30+08:00</updated>
-    <id>http://42wolf.github.io/14312712306176.html</id>
+    <id>http://xumengyang.com/14312712306176.html</id>
     <content type="html"><![CDATA[
 <pre><code>
 今天家里有事，没时间写了，正好在微信群里面和其它朋友说到关于驱动力的话题，po一篇很久以前写的文章吧。
@@ -878,9 +878,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[工作一直没有进步怎么办？试试PDCA法则吧!]]></title>
-    <link href="http://42wolf.github.io/PDCA.html"/>
+    <link href="http://xumengyang.com/PDCA.html"/>
     <updated>2015-05-09T12:57:29+08:00</updated>
-    <id>http://42wolf.github.io/PDCA.html</id>
+    <id>http://xumengyang.com/PDCA.html</id>
     <content type="html"><![CDATA[
 <p>很多人在工作或者学习的时候，总是会发现自己过了一段时间以后，完全没有任何进步，或者进步非常之少。而对于每一个渴望让自己变得更好的人来说，是一件非常令人苦恼的事情，今天我们就来谈一下工作和学习上，可实现的、能够让自己持续进步的方法。</p>
 
@@ -987,9 +987,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[100天行动计划之plank-第5天]]></title>
-    <link href="http://42wolf.github.io/14309260893391.html"/>
+    <link href="http://xumengyang.com/14309260893391.html"/>
     <updated>2015-05-06T23:28:09+08:00</updated>
-    <id>http://42wolf.github.io/14309260893391.html</id>
+    <id>http://xumengyang.com/14309260893391.html</id>
     <content type="html"><![CDATA[
 <p>今天是我100天行动计划的第5天</p>
 
@@ -1019,9 +1019,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[还在用office?markdown让你和恼人的排版说拜拜！]]></title>
-    <link href="http://42wolf.github.io/markdwon.html"/>
+    <link href="http://xumengyang.com/markdwon.html"/>
     <updated>2015-05-05T20:45:13+08:00</updated>
-    <id>http://42wolf.github.io/markdwon.html</id>
+    <id>http://xumengyang.com/markdwon.html</id>
     <content type="html"><![CDATA[
 <p><img src="media/14308299135997/14308307076649.jpg" alt=""/>￼</p>
 
@@ -1104,9 +1104,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[别让猴子跳回你的背上]]></title>
-    <link href="http://42wolf.github.io/monkeytoback.html"/>
+    <link href="http://xumengyang.com/monkeytoback.html"/>
     <updated>2015-05-03T14:20:15+08:00</updated>
-    <id>http://42wolf.github.io/monkeytoback.html</id>
+    <id>http://xumengyang.com/monkeytoback.html</id>
     <content type="html"><![CDATA[
 <p><img src="media/14306338492472/%E7%8C%B4%E5%AD%90.jpg" alt="猴子"/>￼￼</p>
 
@@ -1214,9 +1214,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[每天进步一点点-送书活动]]></title>
-    <link href="http://42wolf.github.io/14304912022246.html"/>
+    <link href="http://xumengyang.com/14304912022246.html"/>
     <updated>2015-05-01T22:40:02+08:00</updated>
-    <id>http://42wolf.github.io/14304912022246.html</id>
+    <id>http://xumengyang.com/14304912022246.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">为什么要进步</h2>
 
@@ -1334,9 +1334,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[读书的100种姿势（2）——找好书几个不为人知的技巧]]></title>
-    <link href="http://42wolf.github.io/14303276627239.html"/>
+    <link href="http://xumengyang.com/14303276627239.html"/>
     <updated>2015-04-30T01:14:22+08:00</updated>
-    <id>http://42wolf.github.io/14303276627239.html</id>
+    <id>http://xumengyang.com/14303276627239.html</id>
     <content type="html"><![CDATA[
 <p>在本人上一篇博文<a href="#comment1"><sup>1</sup></a>中，本人从个人的角度阐述了一下读书的意义所在，这一篇主要介绍一点找书的方法。<br/>
 众所周知，一本好书带给我们的，给我们带来的不光是心灵的愉悦，而且还带给了我们正确的人生和价值观。一本坏书不光是浪费了我们的时间，同时也给我们带来了错误观念，可能就继而做出错误的决定。那么，这种情况下，找到一本好书就显得相当的重要了。</p>
@@ -1408,9 +1408,9 @@ Smart原则最早是由管理学大师Peter Drucker提出，并首先出现于�
   
   <entry>
     <title type="html"><![CDATA[一条产品狗的自我修养(2)——产品经理的屠龙刀]]></title>
-    <link href="http://42wolf.github.io/14302389090656.html"/>
+    <link href="http://xumengyang.com/14302389090656.html"/>
     <updated>2015-04-29T00:35:09+08:00</updated>
-    <id>http://42wolf.github.io/14302389090656.html</id>
+    <id>http://xumengyang.com/14302389090656.html</id>
     <content type="html"><![CDATA[
 <p>上篇文章里面我们有说到”产品经理”这个职位是做干什么的，这一篇文章，我们就要说一下产品经理最重要的一些品质。<br/>
 个人觉得，一个好的产品一定需要有如下几点品质：</p>
