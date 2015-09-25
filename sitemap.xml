@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://xumengyang.com/</loc>
-  <lastmod>2015-09-20T10:58:07+08:00</lastmod>
+  <lastmod>2015-09-25T16:13:09+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://xumengyang.com/14431681801759.html</loc>
+  <lastmod>2015-09-25T16:03:00+08:00</lastmod>
 </url>
 
 <url>
@@ -308,7 +313,7 @@
 
 
 <url>
-  <loc>http://xumengyang.com/knowleadgemanage.html</loc>
+  <loc>http://xumengyang.com/workmanage.html</loc>
 </url>
 
 <url>
@@ -316,7 +321,7 @@
 </url>
 
 <url>
-  <loc>http://xumengyang.com/workmanage.html</loc>
+  <loc>http://xumengyang.com/aboutme.html</loc>
 </url>
 
 <url>
@@ -324,15 +329,7 @@
 </url>
 
 <url>
-  <loc>http://xumengyang.com/aboutme.html</loc>
-</url>
-
-<url>
-  <loc>http://xumengyang.com/pm.html</loc>
-</url>
-
-<url>
-  <loc>http://xumengyang.com/timemanage.html</loc>
+  <loc>http://xumengyang.com/knowleadgemanage.html</loc>
 </url>
 
 <url>
@@ -340,7 +337,7 @@
 </url>
 
 <url>
-  <loc>http://xumengyang.com/hire.html</loc>
+  <loc>http://xumengyang.com/pm.html</loc>
 </url>
 
 <url>
@@ -349,6 +346,14 @@
 
 <url>
   <loc>http://xumengyang.com/technology.html</loc>
+</url>
+
+<url>
+  <loc>http://xumengyang.com/timemanage.html</loc>
+</url>
+
+<url>
+  <loc>http://xumengyang.com/hire.html</loc>
 </url>
 
 
