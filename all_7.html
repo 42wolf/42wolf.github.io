@@ -107,6 +107,114 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="%E6%AF%95%E4%B8%9A%E5%AD%A3.html">
+                
+                  <h1>毕业季</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>人必须要坦然面对自己。</p>
+
+<p>比如我写了这么久的博客，看的人也就那么几个，我活了二十多年，最关注我的也只有父母，喜欢过那么多的姑娘，却没有见到姑娘说喜欢过我。</p>
+
+<p>我是属于那种从来没有过叛逆期的人，遇到点事情总会压在心里。而青春期的荷尔蒙压抑到一定程度总是需要另外一种渠道去发泄，可能是我不能忍受现实中自己的普通和平凡从而由此而产生的孤独和被漠视，我在网上写的文字都很疯狂，平时突然冒出的话也经常很经常让人感到无法理解，很多同学都说我是个很奇怪的人，大抵是因为我的表现很让人奇怪吧，吓着大家了。</p>
+
+<p>可能还是我这个人比较喜欢逃避问题吧？</p>
+
+<p>仔细想想，其实我就是个很普通的人啊，为什么要给自己安下那么多包袱？为什么会给自己定那么多目标呢？达到了目标又怎么样呢？</p>
+
+<p>无非是再挖一个一个的坑，自己往里面跳而已。</p>
+
+<p>理想是个什么东西？</p>
+
+<p>以前总是会觉得，理想就是做最牛逼的人，干最牛逼的事 。现在我想明白了，理想就是做普通的人，做自己喜欢做的事。</p>
+
+<p>其实，这才是最牛逼的。</p>
+
+<p>在家门前看到通往初中的那条走了无数遍的路，路旁边的树叶都长起来了，真的真的很漂亮，我也很久没有在春天的时候呆在家了。</p>
+
+<p>快毕业了啊，毕业了。不能重新来过，只能从现在开始。</p>
+
+<p>生活永远都是这样，我会想念你们的。</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/4/21</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='emotion.html'>碎碎念</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="github%E7%94%B1https%E8%BD%AC%E6%8D%A2%E6%88%90SSH%E7%99%BB%E9%99%86%E4%BB%8D%E7%84%B6%E9%9C%80%E8%A6%81%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98.html">
+                
+                  <h1>github由https转换成SSH登陆仍然需要用户名密码的问题</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<p>我刚才在设置我的github的时候发现，https的push实在是太麻烦了，于是按照官方的教程配置好了SSHkey，可是配置好了以后.</p>
+
+<p><code>git push</code></p>
+
+<p>还是会出现提示用户名和密码的问题。 不对啊！我可是明明已经配置好了啊，怎么还是会出现这个问题呢？ 于是我上网查了下，有人说应该用</p>
+
+<p><code>git push git@github.com:user/repo.git</code></p>
+
+<p>于是我试了一下，果然可以！ 可是如果我Push一下都这么麻烦，那我用SSH干嘛！不就为了少输入下用户名和密码么！ 于是我搜索了一下，我猜，应该是这两种PUSH方式决定的，SSH的Push和Https的Push应该用的是不同的链接，如果使用的不是自己的链接，应该就是需要用户名密码来确认身份的，而SSH配置好了以后，直接push push 不上的原因是，我在初始化仓库的时候，把默认的push链接变成https的了，然后我直接push 都是push Https的链接！ 我猜应该是</p>
+
+<p><code>git remote add origin https://XXXX</code></p>
+
+<p>这段代码把默认的push链接改成https了，于是我在自己尝试改了下。</p>
+
+<p><code>git remote add origin git@github.com:user/repo.git</code></p>
+
+<p>可是上面显示已经初始化过仓库了，囧~于是我Google了一下，终于在官网的Faq找到了解决办法</p>
+
+<p><code>git remote set-url origin git@github.com:user/repo.git</code></p>
+
+<p>哈哈，然后<code>git push</code>就搞定了，nice !enjoy!</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2013/4/16</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='technology.html'>技术</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="disturb.html">
                 
                   <h1>莫名其妙</h1>
@@ -512,6 +620,18 @@
 	      
 		      
 			      <li class="post">
+			        <a href="%E4%BB%8E%E7%A7%9F%E6%88%BF%E8%AF%B4%E4%BA%A7%E5%93%81%EF%BC%9A%E6%80%A7%E4%BB%B7%E6%AF%94%E7%A9%B6%E7%AB%9F%E6%98%AF%E4%BB%80%E4%B9%88.html">从租房说产品：性价比究竟是什么？</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14441965314654.html"></a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="%E4%BB%8E%E6%9C%89%E4%BA%BA@%E4%BD%A0%E8%AF%B4%E5%88%B0%E9%82%A3%E4%BA%9B%E6%B2%A1%E6%9C%89%E8%84%91%E5%AD%90%E7%9A%84%E5%BE%AE%E4%BF%A1%E8%BF%90%E8%90%A5%E8%80%85%E4%BB%AC.html">从有人@你说到那些没有脑子的微信运营者们</a>
 			      </li>
 		     
@@ -525,18 +645,6 @@
 		      
 			      <li class="post">
 			        <a href="%E8%AE%A9%E6%89%80%E6%9C%89%E4%BA%BA%E5%B8%A6%E7%9D%80%E5%AF%B9%E4%BD%A0%E7%9A%84%E8%B4%A8%E7%96%91%E5%8E%BB%E6%AD%BB.html">让所有人带着对你的质疑去死</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="about.html">关于我</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14396145177506.html">《交办的技术》读书笔记</a>
 			      </li>
 		     
 		  
